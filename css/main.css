@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Nunito+Sans&display=swap");
+
+#body {
+  background-color: rgb(170, 170, 130);
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.text-nice-color {
+  color: rgb(255, 240, 210);
+}
+
+.site-header__title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.site-header__text {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  max-width: 700px;
+}
+
+.site-header__info-text {
+  text-align: center;
+}
+
+.site-main__hero__first-week-box {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.site-main__hero__first-week__title {
+  text-align: center;
+}
+
+.site-main__hero__first-week__date-text {
+  text-align: center;
+}
+
+.site-main__hero__first-week-box__subjects-box {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.subjects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 375px) {
+  .site-header__text {
+    font-size: 25px;
+  }
+
+  .site-main__hero__first-week-box {
+    margin: 50px;
+  }
+
+  .site-main__hero__first-week__title {
+    font-size: 15px;
+  }
+
+  .subjects {
+    display: grid;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 160px) {
+  .site-header__title {
+    font-size: 30px;
+  }
+
+  .site-header__text {
+    font-size: 15px;
+  }
+}
